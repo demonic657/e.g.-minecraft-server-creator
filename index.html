@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server Creator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #282c34;
+            color: white;
+            padding: 20px;
+        }
+        header {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>Minecraft Server Creator</header>
+    <form>
+        <input type="email" placeholder="Enter your email" required><br>
+        <input type="text" placeholder="Server Name" required><br>
+        <select>
+            <option value="0.15.10">Version 0.15.10</option>
+            <option value="0.14">Version 0.14</option>
+        </select><br>
+        <button type="submit">Create Server</button>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
